@@ -1,0 +1,39 @@
+.body_page_6.mb-4.container.my-7 {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    justify-content: center;
+    align-content: center;
+    text-align: center!important;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    z-index: -1;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+p.text-center.w-responsive.mx-auto.mb-5 {
+    padding-top: 30px;
+}
+
+.container.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos img{
+    width: 30px;
+    margin-left: 10px;
+}

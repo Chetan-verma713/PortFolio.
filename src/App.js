@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './PortFolio/Footer';
+import Achievement from './PortFolio/Achievement';
+import Contact from './PortFolio/Contact';
+import Header from './PortFolio/Header';
+import Page1 from './PortFolio/Page1';
+import Page2 from './PortFolio/Page2';
+import Progress from './PortFolio/Progress';
+import "./App.css"
+// import { Router } from 'react-router';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Router */}
+      <Header/>
+
+      <div className="options">
+        <Page1/>
+        <Page2 id="About"/>
+        <Progress id="Progress"/>
+        <Achievement id="Achievement"/>
+        <Contact id="Contact"/>
+        <Footer/>
+      </div>
+      
     </div>
   );
 }

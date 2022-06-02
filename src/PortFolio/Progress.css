@@ -1,0 +1,92 @@
+.body_page_3 {
+    width: 100vw;
+    /* height: 100vh; */
+    /* border: 2px solid black; */
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.progress_charts {
+    /* border: 2px solid black; */
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chart {
+    /* border: 2px solid black; */
+    width: 45%;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.chart h4 {
+    font-size: 20px;
+    width: fit-content;
+    padding: 20px;
+    height: fit-content;
+}
+
+.graph {
+    /* border: 2px solid black; */
+    width: 90%;
+    border-radius: 30px;
+    height: 40px;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+}
+
+
+.fill {
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-90deg, rgb(255, 92, 92), rgb(72, 72, 129));
+}
+
+.python .fill{
+    width: 80%;
+}
+
+.java .fill{
+    width: 75%;
+}
+
+.html .fill{
+    width: 80%;
+}
+
+.css .fill{
+    width: 65%;
+}
+
+.react-js .fill{
+    width: 70%;
+}
+
+.php .fill{
+    width: 75%;
+}
+
+.sql .fill{
+    width: 85%;
+}
+
+.c .fill{
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .body_page_3 {
+        height: min-content;
+    }
+
+    .progress_charts {
+        padding: 50px 0px 0px 0px;
+    }
+}
